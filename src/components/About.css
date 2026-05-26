@@ -1,0 +1,123 @@
+/* ============================================================
+   About Section
+   ============================================================ */
+
+.about {
+  background: var(--bg-secondary);
+  position: relative;
+  overflow: hidden;
+}
+
+.about__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xl);
+}
+
+/* ── Header ──────────────────────────────────────────────── */
+.about__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  max-width: 680px;
+}
+
+.about__title {
+  line-height: 1.15;
+}
+
+.about__description {
+  line-height: 1.8;
+}
+
+/* Founder line with accent bar */
+.about__founder {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-top: var(--space-sm);
+}
+
+.about__founder::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  background: var(--gradient-primary);
+  flex-shrink: 0;
+}
+
+.about__founder-text {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+}
+
+.about__founder-text strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ── Service Cards Grid ──────────────────────────────────── */
+.about__services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-xl);
+}
+
+.about__card {
+  padding: var(--space-2xl) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  cursor: default;
+}
+
+.about__card-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(108, 99, 255, 0.08);
+  border: 1px solid rgba(108, 99, 255, 0.15);
+  border-radius: var(--radius-lg);
+}
+
+.about__card-title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+
+.about__card-desc {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 960px) {
+  .about__services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .about__services {
+    grid-template-columns: 1fr;
+  }
+
+  .about__card {
+    padding: var(--space-xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .about__header {
+    gap: var(--space-md);
+  }
+}
