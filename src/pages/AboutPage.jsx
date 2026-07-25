@@ -83,7 +83,7 @@ const AboutPage = () => {
                 accelerate, and amplify growth for every client we work with.
               </p>
               <p className="about-page__text">
-                With <strong>10+ projects delivered</strong> across retail,
+                With <strong>500+ projects delivered</strong> across retail,
                 logistics, education, fitness, and enterprise — we bring the
                 experience, speed, and technical breadth that growing businesses
                 need.
@@ -92,7 +92,7 @@ const AboutPage = () => {
             <div className="about-page__story-stats">
               <div className="about-page__stat-card glass-card">
                 <span className="about-page__stat-number gradient-text">
-                  10+
+                  523+
                 </span>
                 <span className="about-page__stat-label">
                   Projects Delivered
@@ -100,10 +100,10 @@ const AboutPage = () => {
               </div>
               <div className="about-page__stat-card glass-card">
                 <span className="about-page__stat-number gradient-text">
-                  48hr
+                  400+
                 </span>
                 <span className="about-page__stat-label">
-                  Average Delivery
+                  Happy Clients
                 </span>
               </div>
               <div className="about-page__stat-card glass-card">

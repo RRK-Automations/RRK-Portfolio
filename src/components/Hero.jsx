@@ -37,18 +37,18 @@ const Hero = () => {
 
         <div className="hero__stats glass-card">
           <div className="hero__stat">
-            <span className="hero__stat-number">15+</span>
+            <span className="hero__stat-number">523+</span>
             <span className="hero__stat-label">Projects Delivered</span>
           </div>
           <div className="hero__stat-divider"></div>
           <div className="hero__stat">
-            <span className="hero__stat-number">100%</span>
-            <span className="hero__stat-label">Client Satisfaction</span>
+            <span className="hero__stat-number">400+</span>
+            <span className="hero__stat-label">Happy Clients</span>
           </div>
           <div className="hero__stat-divider"></div>
           <div className="hero__stat">
-            <span className="hero__stat-number">48hr</span>
-            <span className="hero__stat-label">Delivery</span>
+            <span className="hero__stat-number">50+</span>
+            <span className="hero__stat-label">Mobile &amp; Web Apps</span>
           </div>
         </div>
       </div>
