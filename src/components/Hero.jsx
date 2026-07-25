@@ -14,23 +14,24 @@ const Hero = () => {
 
       <div className="hero__content container">
         <h1 className="hero__title">
-          <span className="hero__title-line hero__title-line--1">Our Work Speaks</span>
+          <span className="hero__title-line hero__title-line--1">From AI Agents</span>
           <span className="hero__title-line hero__title-line--2">
-            <span className="gradient-text">for Itself</span>
+            <span className="gradient-text">to Enterprise Software</span>
           </span>
         </h1>
 
         <p className="hero__subtitle">
-          Explore the projects we have delivered for our clients. From AI-powered
-          platforms to luxury e-commerce — we bring ideas to life.
+          RRK Automations builds custom software that automates and scales your
+          business. AI agents, WhatsApp automation, web &amp; mobile apps, ERP,
+          CRM, and SaaS platforms — delivered fast.
         </p>
 
         <div className="hero__cta-group">
           <Link to="/projects" className="btn btn-primary hero__btn">
-            View Our Projects
+            View Our Work
           </Link>
           <Link to="/contact" className="btn btn-outline hero__btn">
-            Contact Us
+            Start a Project
           </Link>
         </div>
 

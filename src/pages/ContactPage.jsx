@@ -39,8 +39,9 @@ const ContactPage = () => {
             Get In <span className="gradient-text">Touch</span>
           </h1>
           <p className="contact-page__subtitle">
-            Have a project in mind? Let's talk about how we can help you achieve
-            your goals. We're always excited to take on new challenges.
+            Have a project in mind? From AI agents and mobile apps to ERP
+            systems and SaaS platforms — tell us what you need and we'll build
+            it.
           </p>
         </div>
       </section>
@@ -93,22 +94,22 @@ const ContactPage = () => {
                 <li>
                   <span className="contact-page__info-check">✓</span>
                   <span>
-                    <strong>End-to-End Solutions</strong> — From concept to
+                    <strong>Custom Development</strong> — AI agents, web/mobile
+                    apps, ERP, CRM, and SaaS — we build it all
+                  </span>
+                </li>
+                <li>
+                  <span className="contact-page__info-check">✓</span>
+                  <span>
+                    <strong>Modern Stack</strong> — React, Node.js, AI/ML,
+                    React Native, and cloud-native architecture
+                  </span>
+                </li>
+                <li>
+                  <span className="contact-page__info-check">✓</span>
+                  <span>
+                    <strong>End-to-End Delivery</strong> — From concept to
                     deployment, we handle everything
-                  </span>
-                </li>
-                <li>
-                  <span className="contact-page__info-check">✓</span>
-                  <span>
-                    <strong>Modern Tech Stack</strong> — React, Node.js, AI/ML,
-                    n8n, and more
-                  </span>
-                </li>
-                <li>
-                  <span className="contact-page__info-check">✓</span>
-                  <span>
-                    <strong>24/7 Support</strong> — We're available round the
-                    clock for our clients
                   </span>
                 </li>
                 <li>
@@ -122,7 +123,7 @@ const ContactPage = () => {
             </div>
             <div className="contact-page__info-cta">
               <p className="contact-page__info-cta-text">
-                Visit our main website for more details
+                Explore our full service catalog
               </p>
               <a
                 href="https://rrkautomations.com"

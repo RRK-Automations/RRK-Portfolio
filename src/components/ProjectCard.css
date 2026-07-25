@@ -65,6 +65,28 @@
   transform: scale(1.05);
 }
 
+/* ── Featured Badge ──────────────────────────────────────── */
+.project-card__featured-badge {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: var(--gradient-primary);
+  color: var(--text-primary);
+  border: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 2;
+  line-height: 1;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  box-shadow: 0 0 12px rgba(108, 99, 255, 0.35);
+}
+
 /* ── Category Badge ──────────────────────────────────────── */
 .project-card__category {
   position: absolute;

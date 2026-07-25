@@ -4,7 +4,7 @@
 
 .projects-page__hero {
   position: relative;
-  padding: calc(var(--nav-height) + var(--space-3xl)) 0 var(--space-xl);
+  padding: calc(var(--nav-height) + var(--space-3xl)) 0 var(--space-lg);
   overflow: hidden;
   text-align: center;
 }
@@ -52,7 +52,7 @@
   font-size: var(--font-size-5xl);
   font-weight: 800;
   letter-spacing: -0.03em;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-sm);
 }
 
 .projects-page__subtitle {
@@ -62,7 +62,12 @@
   color: var(--text-secondary);
   max-width: 620px;
   margin: 0 auto;
-  line-height: 1.7;
+  line-height: 1.6;
+}
+
+/* Tighten grid section inside projects page */
+.projects-page .project-grid-section {
+  padding-top: var(--space-lg);
 }
 
 @media (max-width: 768px) {

@@ -11,6 +11,9 @@ const ProjectCard = ({ project }) => {
           className="project-card__image"
           loading="lazy"
         />
+        {project.featuredBadge && (
+          <span className="project-card__featured-badge">{project.featuredBadge}</span>
+        )}
         <span className="project-card__category tag-teal">{project.category}</span>
       </div>
 

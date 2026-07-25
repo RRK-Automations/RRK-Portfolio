@@ -15,9 +15,9 @@ const ProjectsPage = () => {
             Our <span className="gradient-text">Projects</span>
           </h1>
           <p className="projects-page__subtitle">
-            Each project represents a unique challenge solved with precision,
-            creativity, and cutting-edge technology. Explore the work we've
-            delivered for our clients.
+            AI solutions, enterprise software, SaaS platforms, mobile and web
+            applications — every project we deliver is built with modern
+            technology and a focus on real business outcomes. Explore our work.
           </p>
         </div>
       </div>

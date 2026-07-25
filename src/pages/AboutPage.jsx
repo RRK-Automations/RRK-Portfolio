@@ -5,39 +5,39 @@ import "./AboutPage.css";
 const services = [
   {
     icon: "🤖",
-    title: "AI & Automation",
+    title: "AI Agents & Automation",
     description:
-      "Custom AI agents, chatbots, workflow automation using n8n, Make.com, and Zapier. We build intelligent systems that save you hours every day.",
+      "Custom AI agents, workflow automation with n8n and Make.com, intelligent chatbots, and process automation that saves hours every day.",
   },
   {
     icon: "💻",
-    title: "Web & Mobile Development",
+    title: "Web & Mobile Apps",
     description:
-      "Full-stack web and mobile applications built with React, React Native, Node.js, and modern frameworks. Responsive, fast, and scalable.",
+      "Full-stack web and mobile applications built with React, React Native, Node.js, and modern frameworks. Responsive, fast, and built to scale.",
   },
   {
-    icon: "🚀",
-    title: "E-Commerce & Enterprise",
+    icon: "🏢",
+    title: "ERP & Enterprise Software",
     description:
-      "Scalable e-commerce platforms, warehouse management systems, CRM/ERP integrations, and custom business software that drives growth.",
+      "Custom ERP systems, warehouse management, inventory tracking, and enterprise platforms that streamline operations and reduce manual work.",
   },
   {
-    icon: "💬",
+    icon: "📱",
     title: "WhatsApp Business Solutions",
     description:
-      "WhatsApp chatbots, automated lead capture, customer engagement flows, and business API integrations that convert leads into revenue.",
+      "WhatsApp chatbots, automated lead capture, customer engagement flows, and Business API integrations that convert conversations into revenue.",
   },
   {
     icon: "📊",
-    title: "Data & Analytics",
+    title: "CRM & SaaS Platforms",
     description:
-      "Custom dashboards, reporting systems, data pipelines, and analytics platforms that give you actionable business insights.",
+      "Custom CRM systems, SaaS platforms with subscription management, analytics dashboards, and data-driven tools for business growth.",
   },
   {
-    icon: "🎨",
-    title: "UI/UX & Branding",
+    icon: "🛍️",
+    title: "E-Commerce & Marketplaces",
     description:
-      "Premium website designs, personal brand portfolios, and visual identities that make a lasting first impression.",
+      "Feature-rich e-commerce platforms with product management, payment integration, order tracking, and admin dashboards for brands of all sizes.",
   },
 ];
 
@@ -56,7 +56,7 @@ const AboutPage = () => {
             About <span className="gradient-text">RRK Automations</span>
           </h1>
           <p className="about-page__subtitle">
-            Your global partner for every technical service your business needs.
+            Custom software, AI agents, and automation for modern businesses.
           </p>
         </div>
       </section>
@@ -70,29 +70,29 @@ const AboutPage = () => {
                 Who <span className="gradient-text">We Are</span>
               </h2>
               <p className="about-page__text">
-                RRK Automations is a global AI & automation agency founded by{" "}
-                <strong>S. Mahesh Kumar</strong>. We specialize in turning
-                complex business challenges into elegant, automated solutions —
-                and we do it fast.
+                RRK Automations is a custom software development agency founded
+                by <strong>S. Mahesh Kumar</strong>. We build AI agents, web and
+                mobile applications, enterprise platforms, and automation
+                systems that help businesses operate faster and scale smarter.
               </p>
               <p className="about-page__text">
-                From AI-powered chatbots and WhatsApp automation to full-stack
-                web/mobile development and custom enterprise systems, we deliver
-                end-to-end technical solutions tailored to your business. Our
-                mission is simple: automate, accelerate, and amplify your
-                growth.
+                From e-commerce storefronts and learning management systems to
+                warehouse management and fitness platforms — every project we
+                deliver is built with modern technology, clean architecture, and
+                a focus on real business outcomes. Our mission is to automate,
+                accelerate, and amplify growth for every client we work with.
               </p>
               <p className="about-page__text">
-                With <strong>15+ projects delivered</strong> across diverse
-                industries — from luxury jewelry brands to warehouse management
-                to fitness platforms — we bring the experience, speed, and
-                precision that growing businesses need.
+                With <strong>10+ projects delivered</strong> across retail,
+                logistics, education, fitness, and enterprise — we bring the
+                experience, speed, and technical breadth that growing businesses
+                need.
               </p>
             </div>
             <div className="about-page__story-stats">
               <div className="about-page__stat-card glass-card">
                 <span className="about-page__stat-number gradient-text">
-                  15+
+                  10+
                 </span>
                 <span className="about-page__stat-label">
                   Projects Delivered
@@ -108,18 +108,18 @@ const AboutPage = () => {
               </div>
               <div className="about-page__stat-card glass-card">
                 <span className="about-page__stat-number gradient-text">
-                  100%
+                  End-to-End
                 </span>
                 <span className="about-page__stat-label">
-                  Client Satisfaction
+                  Development
                 </span>
               </div>
               <div className="about-page__stat-card glass-card">
                 <span className="about-page__stat-number gradient-text">
-                  24/7
+                  Modern
                 </span>
                 <span className="about-page__stat-label">
-                  Support Available
+                  Tech Stack
                 </span>
               </div>
             </div>
