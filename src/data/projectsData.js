@@ -14,6 +14,11 @@ export const projects = [
     demoLink: "https://rrk-wms-demo.vercel.app/",
     category: "Enterprise Software",
     featuredBadge: "Featured",
+    demoCredentials: {
+      username: "admin@rrk..com",
+      password: "admin123",
+      label: "Demo Account",
+    },
   },
   {
     id: "stay-karo-lms",
@@ -21,12 +26,17 @@ export const projects = [
     shortDescription:
       "A full-featured Learning Management System with faculty dashboards, course management, AI mock interviews, and real-time analytics.",
     fullDescription:
-      "We developed StayKaro LMS, a comprehensive learning management platform designed for educational institutions. The system supports three user roles — admin, faculty, and student — each with tailored dashboards and capabilities. Faculty can create and manage courses, assignments, tests, and live classes; track attendance across batches; and view detailed analytics on student performance. Students access course materials, submit assignments, take tests, track progress, and participate in AI-powered mock interview simulations with real-time feedback. The admin panel provides institution-wide oversight with user management, bulk enrollment via nominal roll import, certificate generation, billing, support ticket management, and a broadcast system for announcements. Built on Supabase for authentication and data storage, the platform handles the complete academic workflow from enrollment to certification.",
+      "A comprehensive learning management platform designed for educational institutions. The system supports three user roles — admin, faculty, and student — each with tailored dashboards and capabilities. Faculty can create and manage courses, assignments, tests, and live classes; track attendance across batches; and view detailed analytics on student performance. Students access course materials, submit assignments, take tests, track progress, and participate in AI-powered mock interview simulations with real-time feedback. The admin panel provides institution-wide oversight with user management, bulk enrollment via nominal roll import, certificate generation, billing, support ticket management, and a broadcast system for announcements. Built on Supabase for authentication and data storage, the platform handles the complete academic workflow from enrollment to certification.",
     techStack: ["React", "Vite", "Tailwind CSS", "Supabase", "Node.js"],
     image: "/projects/stay-karo-lms.png",
     demoLink: "https://staykarolms-six.vercel.app/",
     category: "Enterprise Software",
     featuredBadge: "Enterprise",
+    demoCredentials: {
+      username: "faculty@college.edu",
+      password: "Admin@1234",
+      label: "Demo Faculty Account",
+    },
   },
   {
     id: "ai-college-placement",
@@ -34,7 +44,7 @@ export const projects = [
     shortDescription:
       "An AI-powered placement preparation platform with mock interviews, resume builder, and aptitude test engine.",
     fullDescription:
-      "An intelligent platform that helps college students prepare for campus placements using AI. Features include AI-driven mock interview simulations with real-time feedback, an automated resume builder, a comprehensive aptitude and coding test engine, personalized study plans, and progress tracking dashboards. The platform leverages cutting-edge AI models to provide realistic interview practice and actionable improvement suggestions — helping students build confidence and improve their chances of landing placements.",
+      "An intelligent platform that helps college students prepare for campus placements using AI. Features include AI-driven mock interview simulations with real-time feedback, an automated resume builder, a comprehensive aptitude and coding test engine, personalized study plans, and progress tracking dashboards. The platform leverages AI models to provide realistic interview practice and actionable improvement suggestions — helping students build confidence and improve their chances of landing placements.",
     techStack: ["React", "Python", "OpenAI API", "FastAPI", "MongoDB"],
     image: "/projects/ai-college-placement.png",
     demoLink: "#",
@@ -61,23 +71,39 @@ export const projects = [
     shortDescription:
       "A luxury high-jewelry brand platform with premium product showcase, heritage storytelling, and inquiry-based private sales.",
     fullDescription:
-      "A bespoke luxury brand platform built for House of Midas, a high-jewelry maison inspired by centuries-old craftsmanship and celestial design. The website serves as the brand's complete digital presence, featuring an immersive product gallery showcasing collections of diamond and gold rings priced from £45,000, heritage storytelling that traces the atelier's legacy since 1920, an artisan process section detailing the handcrafting journey from sketch to finished piece, and a private inquiry system for exclusive viewings — replacing traditional cart-based checkout with a concierge-led sales experience. Customer testimonials, a journal or editorial section, and full brand narrative pages complete the experience. Built with React and framer-motion for fluid animations, the design emphasizes editorial elegance — letting product imagery and cinematic typography drive the brand's luxury positioning.",
+      "A bespoke luxury brand platform built for House of Midas, a high-jewelry maison inspired by centuries-old craftsmanship and celestial design. The website serves as the brand's complete digital presence, featuring an immersive product gallery showcasing collections of diamond and gold rings, heritage storytelling that traces the atelier's legacy, an artisan process section detailing the handcrafting journey from sketch to finished piece, and a private inquiry system for exclusive viewings — replacing traditional cart-based checkout with a concierge-led sales experience. Customer testimonials, a journal or editorial section, and full brand narrative pages complete the experience. Built with React and framer-motion for fluid animations, the design emphasizes editorial elegance — letting product imagery and cinematic typography drive the brand's luxury positioning.",
     techStack: ["React", "Tailwind CSS", "framer-motion", "Vercel"],
     image: "/projects/house-of-midas.png",
     demoLink: "https://house-of-midas.vercel.app/",
     category: "E-Commerce",
   },
   {
-    id: "hydari-officers-club",
-    name: "Hydari Officers Club",
+    id: "asha-jyothi-diagnostics",
+    name: "Diagnostic Centre Website & CMS",
     shortDescription:
-      "A premium digital platform for an exclusive officers club — featuring event management, member portal, and facility booking.",
+      "A complete digital platform for a diagnostic centre — featuring patient-facing website, health packages, WhatsApp automation, and administrative workflows.",
     fullDescription:
-      "A comprehensive digital solution built for the Hydari Officers Club, a premier recreational and social institution for officers and their families. The platform serves as the club's complete online presence, featuring member registration and portal access, event scheduling and listings, facility showcase with digital booking infrastructure, gallery, and heritage storytelling sections. The site reflects the club's 90+ year legacy with a premium design befitting its prestigious reputation. Members can access exclusive content, explore amenities, and stay connected with club activities — all from a single unified platform.",
-    techStack: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
-    image: "/projects/hydari-officers-club.png",
-    demoLink: "https://hydari-officers-club-demo.vercel.app/",
+      "A complete digital solution built for Asha Jyothi Diagnostic Centre, a 33-year-old diagnostic facility in Toopran, Medak District, Telangana. The solution includes a comprehensive patient-facing website with diagnostic service listings, 10 health checkup packages with online booking, doorstep phlebotomy scheduling, test catalog search, consultant specialist profiles, and same-day digital report delivery via WhatsApp. The platform also includes administrative functionality, WhatsApp automation for patient communication, and enquiry management workflows. Together, the website and automation infrastructure provide end-to-end digital operations for the diagnostic centre — from patient acquisition and test booking to report delivery and ongoing communication.",
+    techStack: ["React", "n8n", "WhatsApp API", "Tailwind CSS", "Vercel"],
+    image: "/projects/asha-jyothi-diagnostics.png",
+    demoLink: "https://rrk-diagnostic.vercel.app/",
     category: "Web Application",
+    featuredBadge: "Automation",
+    demoRequestMessage:
+      "Full working demonstration of the complete admin and automation workflow is available on request. Schedule a demo to explore the admin panel, n8n automation pipelines, and WhatsApp integration.",
+  },
+  {
+    id: "asha-jyothi-chatbot",
+    name: "AI Diagnostic Chatbot",
+    shortDescription:
+      "An AI-powered diagnostic centre chatbot providing 24/7 patient enquiry support, test information, appointment requests, and report guidance.",
+    fullDescription:
+      "An AI chatbot solution built for Asha Jyothi Diagnostic Centre to provide round-the-clock patient support. The chatbot handles diagnostic test enquiries, provides information about available services (blood tests, pathology, health checkups, home sample collection), answers preparation questions, and facilitates appointment requests. Patients can search the test catalog, enquire about specific tests like CBC, thyroid profile, lipid panel, and vitamin D, and submit booking requests through a conversational interface. The chatbot also provides guidance on report collection and centre location details, serving as a digital front desk that complements the main diagnostic website.",
+    techStack: ["React", "AI Chatbot", "Tailwind CSS", "Vercel"],
+    image: "/projects/asha-jyothi-chatbot.png",
+    demoLink: "https://diagnostic-chatbot-omega.vercel.app/",
+    category: "AI / ML",
+    featuredBadge: "AI Powered",
   },
   {
     id: "safe-snack",
@@ -91,6 +117,18 @@ export const projects = [
     demoLink: "https://safesnack-v1.vercel.app/",
     category: "Web Application",
     featuredBadge: "Production",
+  },
+  {
+    id: "hydari-officers-club",
+    name: "Hydari Officers Club",
+    shortDescription:
+      "A premium digital platform for an exclusive officers club — featuring event management, member portal, and facility booking.",
+    fullDescription:
+      "A comprehensive digital solution built for the Hydari Officers Club, a premier recreational and social institution for officers and their families. The platform serves as the club's complete online presence, featuring member registration and portal access, event scheduling and listings, facility showcase with digital booking infrastructure, gallery, and heritage storytelling sections. The site reflects the club's 90+ year legacy with a premium design befitting its prestigious reputation. Members can access exclusive content, explore amenities, and stay connected with club activities — all from a single unified platform.",
+    techStack: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+    image: "/projects/hydari-officers-club.png",
+    demoLink: "https://hydari-officers-club-demo.vercel.app/",
+    category: "Web Application",
   },
   {
     id: "water-tanker",
@@ -127,6 +165,18 @@ export const projects = [
     techStack: ["React", "Vite", "CSS Animations", "Responsive Design"],
     image: "/projects/mmr-trainer.png",
     demoLink: "https://www.fitfuturewithmmr.com/",
+    category: "Portfolio / Branding",
+  },
+  {
+    id: "ramesh-polishetty",
+    name: "Ramesh Polisetty",
+    shortDescription:
+      "A fitness coaching portfolio for Ramesh Polisetty — featuring body transformations, structured training programs, and nutrition planning.",
+    fullDescription:
+      "A professional fitness coaching website built for Ramesh Polisetty, a body transformation architect with 12+ years of coaching experience and over 300 client transformations. The site showcases his coaching approach across three core areas — structured training programs with progressive overload, nutrition planning tailored to individual goals and food preferences, and real accountability through regular check-ins. The portfolio includes transformation galleries, client testimonials, detailed program and pricing pages, and a direct booking system. Designed to communicate expertise and build trust with potential clients seeking honest, results-driven fitness coaching without fads or shortcuts.",
+    techStack: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    image: "/projects/ramesh-polishetty.png",
+    demoLink: "https://ramesh-polishetty-z3g.vercel.app/index.html",
     category: "Portfolio / Branding",
   },
 ];
