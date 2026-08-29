@@ -72,7 +72,7 @@ export const projects = [
       "A luxury high-jewelry brand platform with premium product showcase, heritage storytelling, and inquiry-based private sales.",
     fullDescription:
       "A bespoke luxury brand platform built for House of Midas, a high-jewelry maison inspired by centuries-old craftsmanship and celestial design. The website serves as the brand's complete digital presence, featuring an immersive product gallery showcasing collections of diamond and gold rings, heritage storytelling that traces the atelier's legacy, an artisan process section detailing the handcrafting journey from sketch to finished piece, and a private inquiry system for exclusive viewings — replacing traditional cart-based checkout with a concierge-led sales experience. Customer testimonials, a journal or editorial section, and full brand narrative pages complete the experience. Built with React and framer-motion for fluid animations, the design emphasizes editorial elegance — letting product imagery and cinematic typography drive the brand's luxury positioning.",
-    techStack: ["React", "Tailwind CSS", "framer-motion", "Vercel"],
+    techStack: ["React", "Framer Motion", "Vercel"],
     image: "/projects/house-of-midas.png",
     demoLink: "https://house-of-midas.vercel.app/",
     category: "E-Commerce",
@@ -84,7 +84,7 @@ export const projects = [
       "A complete digital platform for a diagnostic centre — featuring patient-facing website, health packages, WhatsApp automation, and administrative workflows.",
     fullDescription:
       "A complete digital solution built for Asha Jyothi Diagnostic Centre, a 33-year-old diagnostic facility in Toopran, Medak District, Telangana. The solution includes a comprehensive patient-facing website with diagnostic service listings, 10 health checkup packages with online booking, doorstep phlebotomy scheduling, test catalog search, consultant specialist profiles, and same-day digital report delivery via WhatsApp. The platform also includes administrative functionality, WhatsApp automation for patient communication, and enquiry management workflows. Together, the website and automation infrastructure provide end-to-end digital operations for the diagnostic centre — from patient acquisition and test booking to report delivery and ongoing communication.",
-    techStack: ["React", "n8n", "WhatsApp API", "Tailwind CSS", "Vercel"],
+    techStack: ["Next.js", "Tailwind CSS", "WhatsApp", "Vercel"],
     image: "/projects/asha-jyothi-diagnostics.png",
     demoLink: "https://rrk-diagnostic.vercel.app/",
     category: "Web Application",
@@ -99,7 +99,7 @@ export const projects = [
       "An AI-powered diagnostic centre chatbot providing 24/7 patient enquiry support, test information, appointment requests, and report guidance.",
     fullDescription:
       "An AI chatbot solution built for Asha Jyothi Diagnostic Centre to provide round-the-clock patient support. The chatbot handles diagnostic test enquiries, provides information about available services (blood tests, pathology, health checkups, home sample collection), answers preparation questions, and facilitates appointment requests. Patients can search the test catalog, enquire about specific tests like CBC, thyroid profile, lipid panel, and vitamin D, and submit booking requests through a conversational interface. The chatbot also provides guidance on report collection and centre location details, serving as a digital front desk that complements the main diagnostic website.",
-    techStack: ["React", "AI Chatbot", "Tailwind CSS", "Vercel"],
+    techStack: ["Next.js", "Tailwind CSS", "Vercel"],
     image: "/projects/asha-jyothi-chatbot.png",
     demoLink: "https://diagnostic-chatbot-omega.vercel.app/",
     category: "AI / ML",
@@ -162,7 +162,7 @@ export const projects = [
       "A premium fitness coaching portfolio for Mettu Manohar Reddy — featuring training programs, transformation showcases, and online booking.",
     fullDescription:
       "A modern, conversion-optimized fitness coaching website built for Mettu Manohar Reddy, an online fitness coach and strength & conditioning specialist. The site features program showcases with transparent pricing (monthly to annual plans), dramatic body transformation galleries, a certifications section, client testimonials, WhatsApp integration for instant inquiries, and a fully responsive design. Built to establish a powerful personal brand in the competitive online fitness coaching space and convert visitors into paying clients through strategic design and clear calls to action.",
-    techStack: ["React", "Vite", "CSS Animations", "Responsive Design"],
+    techStack: ["React", "Vite", "Tailwind CSS"],
     image: "/projects/mmr-trainer.png",
     demoLink: "https://www.fitfuturewithmmr.com/",
     category: "Portfolio / Branding",
@@ -174,7 +174,7 @@ export const projects = [
       "A fitness coaching portfolio for Ramesh Polisetty — featuring body transformations, structured training programs, and nutrition planning.",
     fullDescription:
       "A professional fitness coaching website built for Ramesh Polisetty, a body transformation architect with 12+ years of coaching experience and over 300 client transformations. The site showcases his coaching approach across three core areas — structured training programs with progressive overload, nutrition planning tailored to individual goals and food preferences, and real accountability through regular check-ins. The portfolio includes transformation galleries, client testimonials, detailed program and pricing pages, and a direct booking system. Designed to communicate expertise and build trust with potential clients seeking honest, results-driven fitness coaching without fads or shortcuts.",
-    techStack: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    techStack: ["HTML", "CSS", "JavaScript", "Supabase"],
     image: "/projects/ramesh-polishetty.png",
     demoLink: "https://ramesh-polishetty-z3g.vercel.app/index.html",
     category: "Portfolio / Branding",
